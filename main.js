@@ -52,7 +52,7 @@ dracoLoader.setDecoderPath("src/gltf/");
 const loader = new GLTFLoader();
 loader.setDRACOLoader(dracoLoader);
 loader.load(
-  "asserts/little_tokyo/LittlestTokyo.glb",
+  "assets/little_tokyo/LittlestTokyo.glb",
   function (gltf) {
     const model = gltf.scene;
     model.position.set(1, 1, 0);
